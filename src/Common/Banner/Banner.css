@@ -1,0 +1,20 @@
+.slick-prev, .slick-next {
+    width: auto;
+    height: auto;
+}
+
+.slick-prev {
+    left: 0;
+}
+
+.slick-prev::before { 
+    content: url('./left.svg');
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-next::before {
+    content: url('./right.svg');
+}
